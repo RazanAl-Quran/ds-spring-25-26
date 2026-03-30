@@ -13,7 +13,15 @@ public class Main {
 
   }
 
-  // Example 1: Recursive method to calculate factorial
+// Example 1: Recursive method to calculate factorial
+// 5x4x3x2x1
+// factorial(5)
+    //  5 * factorial(4)
+    //      4 * factorial(3) 
+    //          3 * factorial(2)
+    //              2 * factorial(1)
+          
+
   public static int factorial(int n) {
       // Base case: If n is 0 or 1, return 1
       if (n == 0 || n == 1) {
@@ -33,6 +41,19 @@ public class Main {
     
   }
 
+                 fibonacci(5)
+
+      fibonacci(4)                     +    fibonacci (3)
+
+     fib(3)+fib(2)                 +         fib(2)+fib(1)
+
+fib(2)+fib(1) + fib(1)+fib(0)      +        fib(1)+fib(0) 
+
+fib(1)+fib(0) 
+
+
+
+
 
   // Example 3: Recursive method to reverse a string
   public static String mystery(String s) {
@@ -47,3 +68,5 @@ public class Main {
 
   
 }
+
+
