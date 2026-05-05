@@ -2,7 +2,7 @@
 
 // In every i iteration we will have the smallest or greatest element in the beginning
 
-// Time O(2^n)
+// Time O(n^2) Space O(1)
 
 // Credit goes to >> https://www.geeksforgeeks.org/selection-sort/
 

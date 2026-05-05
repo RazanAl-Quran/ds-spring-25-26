@@ -2,7 +2,7 @@
 
 // In every i iteration we will have the greatest element in the end
 
-// Time O(2^n)
+// Time O(n^2) Space O(1)
 
 // Credit goes to https://www.geeksforgeeks.org/java-program-for-bubble-sort/
 
